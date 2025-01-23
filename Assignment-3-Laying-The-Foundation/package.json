@@ -1,0 +1,34 @@
+{
+  "name": "assignment-1-inception",
+  "version": "1.0.0",
+  "description": "This is a course",
+  "main": "dist/App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build App.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarvesh-dotcom/Learning-React.git"
+  },
+  "author": "Sarvesh Khanal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarvesh-dotcom/Learning-React/issues"
+  },
+  "homepage": "https://github.com/sarvesh-dotcom/Learning-React#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "browserslist": [
+    "cover 99.5%"
+  ]
+}
